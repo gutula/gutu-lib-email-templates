@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-email-templates",
   "packageId": "email-templates",
   "displayName": "Email Templates",
+  "packageCount": 1,
   "group": "Core Data And Query",
   "maturity": "Baseline",
   "description": "React Email wrapper and template helpers.",

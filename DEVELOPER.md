@@ -35,6 +35,7 @@ Provides reusable email-template definitions and rendering helpers so outbound e
 | Package ID | `email-templates` |
 | Display Name | Email Templates |
 | Import Name | `@platform/email-templates` |
+| Canonical Namespace Target | `@gutu/email-templates` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides reusable email-template definitions and rendering helpers so outbound e
 | Dev Dependencies | None |
 | React Runtime | Yes |
 | Workspace Scoped | No |
+| Legacy Compatibility IDs | `@platform/email-templates` |
 
 ### Dependency interpretation
 

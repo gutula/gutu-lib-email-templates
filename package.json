@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/email-templates run build",
-    "typecheck": "bun --cwd framework/libraries/email-templates run typecheck",
-    "lint": "bun --cwd framework/libraries/email-templates run lint",
-    "test": "bun --cwd framework/libraries/email-templates run test",
-    "test:unit": "bun --cwd framework/libraries/email-templates run test:unit",
+    "build": "bun run --cwd framework/libraries/email-templates build",
+    "typecheck": "bun run --cwd framework/libraries/email-templates typecheck",
+    "lint": "bun run --cwd framework/libraries/email-templates lint",
+    "test": "bun run --cwd framework/libraries/email-templates test",
+    "test:unit": "bun run --cwd framework/libraries/email-templates test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }
